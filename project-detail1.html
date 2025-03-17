@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>프로젝트 상세 페이지 - </title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      background-color: #f4f4f9;
+      color: #333;
+    }
+    header {
+      background-color: #007acc;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    .container {
+      max-width: 800px;
+      margin: 20px auto;
+      background: #fff;
+      padding: 20px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+    }
+    .back-link {
+      display: inline-block;
+      margin-bottom: 20px;
+      color: #007acc;
+      text-decoration: none;
+    }
+    .back-link:hover {
+      text-decoration: underline;
+    }
+    .project-image {
+      width: 100%;
+      height: auto;
+      border-radius: 4px;
+    }
+    .project-info {
+      margin-top: 20px;
+    }
+    .project-info h2 {
+      margin: 0;
+      color: #007acc;
+    }
+    .project-info p {
+      margin: 10px 0;
+    }
+    footer {
+      text-align: center;
+      padding: 10px 0;
+      background-color: #007acc;
+      color: white;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>프로젝트 상세 정보</h1>
+  </header>
+  
+  <div class="container">
+    <a href="index.html" class="back-link">&larr; 돌아가기</a>
+    <img src="/image/1-1.jpg" alt="팀 협업 프로젝트 이미지" class="project-image">
+    <div class="project-info">
+      <h2>팀 협업  프로젝트</h2>
+      <p><strong>기간:</strong> 2024.05.07 ~ 2024.06.25</p>
+      <p>
+        <strong>설명:</strong> 본 프로젝트에서는 MySQL 서버와 연동하여 사용자 접근성을 높이고, YOLO 객체 검출을 활용한 실시간 데이터 확인 및 장애물 탐지 시스템을 구축하였습니다. 또한, ROS 기반 웹캠을 활용하여 화면 캡처 및 객체 검출을 수행하고, YOLO 학습 모델을 적용하여 객체 목록을 확인하였습니다.
+      </p><br>
+      <p>
+        <strong>주요 기능:</strong>
+        <ul>
+          <li>QR 코드 인식 및 OpenCV-YOLO 기반 장애물 탐지</li>
+          <li>AI 모델링 및 데이터 분석</li>
+          <li>로그인 및 회원가입 시스템 구현 (MySQL 연동)</li>
+          <li>사용자 대시보드 및 관리자 대시보드 분리</li>
+          <li>웹캠을 활용한 AI 사물 인식 테스트</li>
+          <li>Arduino AI 자율주행 자동차 개발 및 장애물 감지</li>
+          <li>PyQt5를 활용한 GUI 컨트롤러 제작</li>
+          <li>ROS 기반 라인 트레이싱 자율주행 및 웹 인터페이스 수동 주행</li>
+        </ul>
+      </p>
+      <p><strong>사용 기술:</strong> Python, TensorFlow, OpenCV, YOLOv8, ROS, MySQL, PyQt5, HTML/CSS, JavaScript</p>
+    </div>
+  </div>
+  
+  <footer>
+    &copy; 2025 김희선.
+  </footer>
+</body>
+</html>
