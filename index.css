@@ -63,7 +63,7 @@ footer {
 .projects-container {
     /* 카드 레이아웃을 위한 그리드 */
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     gap: 20px;
     margin-top: 20px;
 }
